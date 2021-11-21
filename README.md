@@ -27,4 +27,3 @@ This topic is intended to introduce you to system administration. It will make y
 - Your server should be able to use the SSL protocol.
 - You will have to make sure that, depending on the url, your server redirects to the correct website.
 - You will also need to make sure your server is running with an autoindex that must be able to be disabled.
-PAGE4
