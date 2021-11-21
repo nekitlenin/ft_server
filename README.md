@@ -1,26 +1,26 @@
-Ft\_server
+# Ft server
 
-*Summary: This is a System Administration subject. You will discover Docker and you*
+> This is a System Administration subject. You will discover Docker and youwill set up your first web server.
+>
+> ## 📝 PDF
+>
+> - [**`FILE LINK`**](https://github.com/nekitlenin/ft_server/blob/main/ft_server_03_17_2020_19_46.pdf)
 
-*will set up your first web server.*
+## 🚀 Content
 
-**Chapter PAGE \\* romaniv**
+[ Introduction] |       [ General instructions] |       [ Mandatory part]
 
-**Contents**
-
-[ Introduction](#_page2_x72.00_y72.00) |       [ General instructions](#_page3_x72.00_y72.00) |       [ Mandatory part](#_page4_x72.00_y72.00)
-
-**Introduction**
+##  Introduction
 
 This topic is intended to introduce you to system administration. It will make you aware of the importance of using scripts to automate your tasks. For that, you will discover the "docker" technology and use it to install a complete web server. This server will run multiples services: Wordpress, phpMyAdmin, and a SQL database.
 
-**General instructions**
+## General instructions
 
 - You must place all the necessary files for the configuration of your server in a folder called srcs.
 - Your Dockerfile file should be at the root of your repository. It will build your container. You can’t use docker-compose.
 - All the necessary files for your WordPress website should be in the folder srcs.
 
-**Mandatory part**
+### 🚩 Mandatory part
 
 - You must set up a web server with Nginx, in only one docker container. The container OS must be debian buster.
 - Your web server must be able to run several services at the same time. The services will be a WordPress website, phpMyAdmin and MySQL. You will need to make sure your SQL database works with the WordPress and phpMyAdmin.
